@@ -4,6 +4,7 @@ import Topbar from '../../Components/Topbar/Topbar'
 import Navbar from '../../Components/Navbar/Navbar'
 import Landing from '../../Components/Landing/Landing'
 import LastCourses from '../../Components/LastCourses/LastCourses'
+import AboutUs from '../../Components/AboutUs/AboutUs'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <Navbar />
     <Landing />
     <LastCourses />
+    <AboutUs />
     </>
   )
 }
