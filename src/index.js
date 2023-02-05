@@ -3,16 +3,19 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import './styles/reset.css'
-import './styles/defaults.css'
-import './styles/fonts.css'
-import './styles/variables.css'
-import './styles/helpers.css'
+import { BrowserRouter } from "react-router-dom";
+import "./styles/reset.css";
+import "./styles/defaults.css";
+import "./styles/fonts.css";
+import "./styles/variables.css";
+import "./styles/helpers.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
+  <BrowserRouter>
     <App />
+  </BrowserRouter>
   // </React.StrictMode>
 );
 
