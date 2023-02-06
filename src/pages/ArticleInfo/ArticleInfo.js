@@ -3,6 +3,7 @@ import Navbar from "./../../Components/Navbar/Navbar";
 import Footer from "./../../Components/Footer/Footer";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import "./ArticleInfo.css";
+import CommentTextArea from "../../Components/CommentTextArea/CommentTextArea";
 
 const ArticleInfo = () => {
   return (
@@ -238,9 +239,8 @@ const ArticleInfo = () => {
                   </div>
                 </div>
               </div>
+              <CommentTextArea />
             </div>
-
-
           </div>
         </div>
       </main>

@@ -5,6 +5,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import CourseDetailBox from "../../Components/CourseDetailBox/CourseDetailBox";
+import CommentTextArea from "../../Components/CommentTextArea/CommentTextArea";
 
 const CourseInfo = () => {
   return (
@@ -376,11 +377,14 @@ const CourseInfo = () => {
                     </div>
                   </div>
                   <p className="techer-details__footer">
-                    از سال 1400 تا به کنون در زمینه وب سایت با زبان جاوا اسکریپت و کتابخانه React مشغول فعالیت هستم...
+                    از سال 1400 تا به کنون در زمینه وب سایت با زبان جاوا اسکریپت
+                    و کتابخانه React مشغول فعالیت هستم...
                   </p>
                 </div>
 
                 {/* Finish Teacher Details */}
+
+                <CommentTextArea />
               </div>
             </div>
 
