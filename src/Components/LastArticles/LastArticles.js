@@ -11,6 +11,7 @@ const LastArticles = () => {
           title="جدیدترین مقاله ها"
           des="پیش به سوی ارتقای دانش"
           btnTitle="تمامی مقاله ها"
+          btnHref='/articles'
         />
 
         <div className="articles__content">
