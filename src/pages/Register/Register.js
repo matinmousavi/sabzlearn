@@ -1,11 +1,11 @@
 import React from "react";
+import "./Register.css";
 import { Link } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import Topbar from "../../Components/Topbar/Topbar";
-
-import "./Register.css";
-import Input from "../../Components/Form/Input/Input";
+import Input from "../../Components/Form/Input";
+import Button from "../../Components/Form/Button";
 
 export default function Register() {
   return (
@@ -40,7 +40,7 @@ export default function Register() {
             <div className="login-form__password">
               <Input
                 className="login-form__password-input"
-                type="text"
+                type="email"
                 placeholder="آدرس ایمیل"
                 element="input"
               />
@@ -49,16 +49,16 @@ export default function Register() {
             <div className="login-form__password">
               <Input
                 className="login-form__password-input"
-                type="text"
+                type="password"
                 placeholder="رمز عبور"
-                element='input'
+                element="input"
               />
               <i className="login-form__password-icon fa fa-lock-open"></i>
             </div>
-            <button className="login-form__btn" type="submit">
+            <Button className="login-form__btn" type="submit" disabled={false}>
               <i className="login-form__btn-icon fa fa-user-plus"></i>
               <span className="login-form__btn-text">عضویت</span>
-            </button>
+            </Button>
           </form>
           <div className="login__des">
             <span className="login__des-title">سلام کاربر محترم:</span>
